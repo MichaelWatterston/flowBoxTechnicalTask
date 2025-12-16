@@ -1,0 +1,16 @@
+export const UI_MESSAGES = {
+  loading: 'Loading posts...',
+  error: (message: string) => `Whoops: ${message}`,
+  noPosts: 'No posts found.',
+  gridView: 'Grid View',
+  carouselView: 'Carousel View',
+  listView: 'List View',
+  searchPlaceholder: 'Search hashtag...',
+  searchButton: 'Search',
+  defaultAlt: 'Instagram post',
+  likePost: 'Like',
+  deletePost: 'Delete',
+  viewOnInstagram: 'View on Instagram',
+  dragDropText: 'Drag & Drop to box',
+  fetchError: 'Failed to fetch posts',
+} as const;
